@@ -1,6 +1,6 @@
 
 """
-    Solved using th shifting pointed technique
+    Solved using th shifting pointer technique
 """
 
 def pair_sum(nums,target):
