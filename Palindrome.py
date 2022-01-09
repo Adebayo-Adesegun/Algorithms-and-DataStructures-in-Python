@@ -35,10 +35,10 @@ def isPalindrome(text):
   
   
     
-print(isPalindromeSec("aabaa")) 
-print(isPalindromeSec("aabbaa")) 
-print(isPalindromeSec("abc")) 
-print(isPalindromeSec("a")) # Edge case for single character
-print(isPalindromeSec("")) # Edge case for empty string
-print(isPalindromeSec("A man, a plan, a canal : Panama"))
+print(isPalindrome("aabaa")) 
+print(isPalindrome("aabbaa")) 
+print(isPalindrome("abc")) 
+print(isPalindrome("a")) # Edge case for single character
+print(isPalindrome("")) # Edge case for empty string
+print(isPalindrome("A man, a plan, a canal : Panama"))
   
