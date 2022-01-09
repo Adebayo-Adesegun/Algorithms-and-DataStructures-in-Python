@@ -41,4 +41,11 @@ print(isPalindrome("abc"))
 print(isPalindrome("a")) # Edge case for single character
 print(isPalindrome("")) # Edge case for empty string
 print(isPalindrome("A man, a plan, a canal : Panama"))
+
+
+
+
+
+
+
   
