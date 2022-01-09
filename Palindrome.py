@@ -1,4 +1,20 @@
 
+def isPalindrome_method2(text):
+  text = ''.join(filter(str.isalnum, text)) 
+  text = text.lower()
+  
+  left, right = 0, len(text) -1
+  
+  while left < right:
+    if text[left] != text[right]:
+      return False
+    
+    right -=1
+    left +=1
+    
+  return True
+  
+  
 
 def isPalindrome(text):
   
@@ -19,10 +35,10 @@ def isPalindrome(text):
   
   
     
-print(isPalindrome("aabaa")) 
-print(isPalindrome("aabbaa")) 
-print(isPalindrome("abc")) 
-print(isPalindrome("a")) # Edge case for single character
-print(isPalindrome("")) # Edge case for empty string
-print(isPalindrome("A man, a plan, a canal : Panama"))
+print(isPalindromeSec("aabaa")) 
+print(isPalindromeSec("aabbaa")) 
+print(isPalindromeSec("abc")) 
+print(isPalindromeSec("a")) # Edge case for single character
+print(isPalindromeSec("")) # Edge case for empty string
+print(isPalindromeSec("A man, a plan, a canal : Panama"))
   
